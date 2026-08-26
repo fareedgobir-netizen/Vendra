@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendra</title>
+</head>
+<style>
+    .Index {
+        background: linear-gradient(to right, #463F3A, #8A817c);
+    }
+
+
+    .boxsix {
+        width: 300px;
+        padding: 20px;
+        text-align: left;
+
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+        transition: all 0.35s ease;
+    }
+
+    .boxsix:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .boxsix img {
+        width: 200px;
+        display: block;
+        margin: auto;
+
+        transition: transform .4s ease;
+    }
+
+    .boxsix:hover img {
+        transform: scale(1.08);
+    }
+
+    .boxsix h1 {
+        margin-top: 15px;
+    }
+
+    .price {
+        font-weight: bold;
+        color: blueviolet;
+    }
+
+    .boxsix button,
+    .buttonbtj {
+        width: 100%;
+        padding: 15px;
+        margin-top: 15px;
+
+        background: blueviolet;
+        color: white;
+
+        border: none;
+        border-radius: 15px;
+
+        cursor: pointer;
+
+        transition: .3s;
+    }
+
+    .boxsix button:hover,
+    .buttonbtj:hover {
+        background: rgb(117, 47, 182);
+        transform: scale(1.03);
+    }
+
+    .boxsix button:active {
+        transform: scale(0.96);
+    }
+</style>
+
+<body style="margin: 0px; padding: 0px;">
+    <div style="display: flex; align-items: center; justify-content: space-between;  padding: 20px;" class="Index">
+        <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 45px;">Vendra
+        </h1>
+        <div style="font-family: Arial, Helvetica, sans-serif;">
+            <a href="Index.html" style="text-decoration: none; color: black;">Home</a>
+            <a href="All-Products.html" style="margin-left: 22px; text-decoration: none; color: black;">Product</a>
+            <a href="" style="margin-left: 22px; text-decoration: none; color: black;">Contact</a>
+        </div>
+    </div>
+    <H1
+        style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-top: 70px;">
+        🛍️ Welcome to Fareed's Mini Marketplace!
+
+    </H1>
+    <H1
+        style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 70px;">
+        Find snacks, drinks, stationery, toys, and more—all in one place.
+    </H1>
+    <div style="text-align: center;"> <a href="All-Products.html"
+            style="text-decoration: none; color: black; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">[Shop
+            Now]</a></div>
+
+
+    </div>
+    <div
+        style="display: grid; grid-template-columns: repeat(3, 1fr) ; text-align: center; padding: 30px; font-family: Arial, Helvetica, sans-serif;  justify-content: center; gap: 20px;">
+
+
+
+        <div class="boxsix">
+            <img src="Apple MacBook.webp" alt="" style="width: 200px; border-radius: 35px;">
+            <h1>Macbook</h1>
+            <p>Apple MacBook</p>
+            <p class="price">Price: $120.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+
+
+        <div class="boxsix">
+
+            <img src="nike-air-max-nike-free-air-force-shoe-nike_-_Copy-removebg-preview.png" alt=""
+                style="width: 175px; border-radius: 35px; ">
+            <h1>Nike Shoe</h1>
+            <p>Red and Black Nike running Shoe
+            <p>
+            <p class="price">Price: $56.75</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="boxsix">
+            <img src="b265e4dc-9c33-4b8a-9ae7-c8a5fd97f3ea.5f6922d1d806f5befbfe2784e3d411d2.jpeg" alt=""
+                style="border-radius: 35px; width: 175px;">
+            <h1>Red T13</h1>
+            <p>3D Printed Dummy 13 Action Figure</p>
+            <p class="price">Price: $10.00</p>
+            <button>Add to Cart</button>
+
+        </div>
+        <div class="boxsix">
+            <img src="pngtree-lipstick-lip-balm-beautiful-png-image_6727299.png" alt="" style="width: 200px;">
+            <h1>Lipstick</h1>
+            <p>Red Lipstick</p>
+            <p class="price">Price: $5.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="boxsix">
+            <img src="image-removebg-preview (2).png" alt="">
+            <h1>Candy Bucket</h1>
+            <p>Candy Bucket With 6 different candies</p>
+            <p class="price">Price: $12.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="boxsix">
+            <img src="image-removebg-preview (3).png" alt="Wooden Table">
+
+            <h1>Table</h1>
+
+            <p>A Wooden Table</p>
+
+            <p class="price">Price: $290.99</p>
+
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    </div>
+    <div style="text-align: center; padding: 15px;" class="">
+        <button style="width: 40%;" class="buttonbtj">
+            <a href="All-Products.html"
+                style="font-size: xx-large; text-decoration: none; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;">View
+                More</a>
+        </button>
+    </div>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Featured Products</h1>
+
+    <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Check out some of our most popular
+        Products</p>
+
+    <div
+        style="display: grid; grid-template-columns: repeat(3, 1fr) ; text-align: center; padding: 30px; font-family: Arial, Helvetica, sans-serif;  justify-content: center; gap: 20px;">
+
+
+
+        <div class="boxsix">
+            <img src="Knife" alt="" style="width: 200px; border-radius: 35px;">
+            <h1>Stainless Steel Knife</h1>
+            <p>A grey colored Stainless Steel Knife, no grime, anytime!</p>
+            <p class="price">Price: $15.00</p>
+            <p class="price">Category: Utensils</p>
+            <p class="price">Rating: 3.5 Stars</p>
+            <a href="" style=" text-decoration: none; color: black;">View Details</a>
+            <button>Add to Cart</button>
+        </div>
+
+
+
+        <div class="boxsix">
+
+            <img src="Baratie Lego set.png" alt="" style="width: 225px; border-radius: 35px; ">
+            <h1>Baratie Lego Set</h1>
+            <p>One Piece Baratie lego set, with 10 minifigures and customizable accesories
+            <p>
+            <p class="price">Price: $59.35</p>
+            <p class="price">Category: Toys</p>
+            <p class="price">Rating: 4.9 Stars</p>
+            <a href="" style=" text-decoration: none; color: black;">View Details</a>
+            <button style="background-color: #8A817c;">Waiting...</button>
+        </div>
+        <div class="boxsix">
+            <img src="tg.png" alt="" style="border-radius: 35px; width: 175px;">
+            <h1>Black Headphones</h1>
+            <p>Black Headphones, customizable, and comfortable.</p>
+            <p class="price">Price: $12.00</p>
+            <p class="price">Category: Electronic</p>
+            <p class="price">Rating: 5.0 Stars</p>
+            <a href="" style=" text-decoration: none; color: black;">View Details</a>
+            <button>Add to Cart</button>
+
+        </div>
+        <div class="boxsix">
+            <img src="basketball-png-4.png" alt="" style="width: 200px; border-radius: 35px; ">
+            <h1>Basketball</h1>
+            <p>A Spalding Basketball, perfect and adaptable to enviorment
+            <p>
+            <p class="price">Price: $13.86</p>
+            <p class="price">Category: Sports</p>
+            <p class="price">Rating: 4.9 Stars</p>
+            <a href="" style=" text-decoration: none; color: black;">View Details</a>
+            <button>Add to Cart</button>
+        </div>
+        <div class="boxsix">
+            <img src="Lamp" alt="" style="width: 170px; border-radius: 35px; ">
+            <h1>Table Lamp</h1>
+            <p>A vintage table lamp, good for bedside readers.
+            <p>
+            <p class="price">Price: $74.86</p>
+            <p class="price">Category: Vintage</p>
+            <p class="price">Rating: 3.1 Stars</p>
+            <a href="" style=" text-decoration: none; color: black;">View Details</a>
+            <button>Add to Cart</button>
+        </div>
+        <div class="boxsix">
+            <img src="set-of-console-game-device-handheld-portable-free-png.webp" alt=""
+                style="width: 250px; border-radius: 35px; ">
+            <h1>Nintendo Switch</h1>
+            <p>A Nintendo Switch, Very Portable
+            <p>
+            <p class="price">Price: $45.86</p>
+            <p class="price">Category: Electronic</p>
+            <p class="price">Rating: 5.0 Stars</p>
+            <a href="" style=" text-decoration: none; color: black;">View Details</a>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div>
+        <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Shop By Category</h1>
+        <div
+            style="display: grid; grid-template-columns: repeat(3, 1fr) ; text-align: center; padding: 30px; font-family: Arial, Helvetica, sans-serif;  justify-content: center; gap: 20px;">
+            <div class="boxsix">
+                <img src="PRINGLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLES" alt=""
+                    style="width: 200px; border-radius: 35px;">
+                <h1>Snacks</h1>
+                <button>Discover</button>
+
+            </div>
+            <div class="boxsix">
+                <img src="pepsi-transparent-pic-5.png" alt="" style="width: 210px; border-radius: 35px;">
+                <h1>Drinks</h1>
+                <button>Discover</button>
+            </div>
+
+
+            <div class="boxsix">
+                <img src="pngtree-top-quality-playstation-5-console-isolated-png-image_15514648.png" alt=""
+                    style="width: 300px; border-radius: 35px;">
+                <h1>Games</h1>
+                <button>Discover</button>
+            </div>
+
+
+            <div class="boxsix">
+                <img src="Toys.png" alt="" style="width: 200px; border-radius: 35px;">
+                <h1>Toys</h1>
+                <button>Discover</button>
+            </div>
+
+
+            <div class="boxsix">
+                <img src="RING.png" alt="" style="width: 200px; border-radius: 35px;">
+                <h1>Jewlery</h1>
+                <button>Discover</button>
+            </div>
+
+
+            <div class="boxsix">
+                <img src="WAAAAAAAAAAAAAAAAAAAAAAAAAATCH.png" alt="" style="width: 200px; border-radius: 35px;">
+                <h1>Electronics</h1>
+                <button>Discover</button>
+            </div>
+        </div>
+
+        <div style="text-align: center; font-size: large; font-family: Arial, Helvetica, sans-serif; margin-top: 5px;">
+            <h1>About Us
+
+            </h1>
+            <p>
+                Welcome to Vendra - our mini marketplace!
+
+
+            </p>
+            <p>We make it easy to discover great products, from tasty snacks and drinks to stationery, toys, and
+                electronics.</p>
+        </div>
+        <div style="text-align: center; font-size: large; font-family: Arial, Helvetica, sans-serif; margin-top: 25px;">
+            <h1>Contact Us</h1>
+            <p>Have a question? Send us a message!</p>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
